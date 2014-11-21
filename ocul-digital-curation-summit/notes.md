@@ -55,13 +55,18 @@ Evaluation and assessment - regular internal reports and tracking documents. Doc
 
 Metadata application profiles are very important. Let your staff know which metadata elements have to be used, how fields should be completed, which ones can be repeated, etc. Better & smarter metadata will be able to do more later on. Example of KML "smart data" that might allow mapping applications later on.  
 
-Rights and copyright - determine copyright status of EVERY object (ownership versus copyright). In-house tracking (copyright status, copyright owner, donor, permissions, etc. Include as part of the metadata record.) _Copyright status should be displayed as part of the record, as well as attribution information_ Have policies in place - be proactive, not reactive. Think about how you can use existing creative commons licenses for filtering/faceting and clarity for end-users.  
+Rights and copyright - determine copyright status of EVERY object (ownership versus copyright). In-house tracking (copyright status, copyright owner, donor, permissions, etc. Include as part of the metadata record.) _Copyright status should be displayed as part of the record, as well as attribution information_. Have policies in place - be proactive, not reactive. Think about how you can use existing creative commons licenses for filtering/faceting and clarity for end-users.  
 
 The user community experience - online communities can be defined many different ways and discovery happens in many different spaces. Who are you trying to reach? Consider capturing and indexing comments that people leave in digital spaces - people may tell their stories or provide background information about the content.  
 
 Cultural heritage projects can also be crowdsourced. Want to keep "smart data" in mind (creative commons licenses, geodata). Our Digital World has a copyright FAQ and project management resources on their site.  
 
+#Digitization project management in practice
+Sara Allain, Ryerson (but talking about UTSC)  
 
+Project: digitize hundreds of images. Mission to facilitate digital access to select archival collections related to UTSC's 50th anniversary. June-August 2014. Had YCW funding to hire an MI/MLIS graduate student (Rachel Pisani). Had previously developed digitization standards, purchased equipment, and UTSC owned copyright. UTSC photographic services collection ~10,000 prints, negatives and slides. Loosely described and arraged by subject. Didn't do all 10,000 - selected several hundred. Also had 2 librarians and 2 work study students.  
 
+Rachel did a collection inventory and basic one-line descriptions. Prioritized good candidates for digitization on a spreadsheet. Converted spreadsheet to MODSXML using Open Refine. Work study students scanned the images following standards (600 dpi, full-colour TIFFs).  
 
+Open Refine produces a giant XML file for the whole collection, but Islandora wants one XML file and one image per item. XML::Twig fixes this. Batch ingested into Islandora. Now online! Yay! Important to define what success means for your project. Learning moment: emphasizing regular communication means being prepared for and flexibly adapting to changes to project scope and implementation. [Project is here!](http://uoft.me/utsc-photos)   
 
