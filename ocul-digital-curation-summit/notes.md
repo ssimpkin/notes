@@ -92,3 +92,66 @@ Many tools! Gabriela's presentation went through tools used for different parts 
 
 McMaster has created a digital curation workstation with a bunch of drives to handle various media (zip, jaz, etc.) BitCurator to extract digital materials from removable media in ways that generate metadata. BitCurator is a collection of software and utilities developped by a consortium of schools.  
 
+#Archivematica
+###Jeremy Heil, Queen's
+
+City of Vancouver chose Archivematica, had several criteria for selection: compliance with OAIS, ingests a wide variety of digital objects, stores objects securely, addresses reservation planning, provides logging to demonstrate preservation actions, open source, flexibility to add new features, scalability for large acquisitions.  
+
+Open Archival Information System (OAIS): SIPs and AIPs and DIPs.  
+
+* SIP: Submission information package - acquired and submitted to system
+* AIP: what is preserved in OAIS
+* DIP: what is provided to end-users.
+
+SIPs have to be massaged a bit to enter the system, for fixity, etc. These are ingested an converted to AIPs and DIPs. Can do either/or, both at same time if needed, etc.  
+
+SIP contains original documents, captured metadata, checksums, added metadata. Information at the point of capture.  
+
+AIP contains METS/PREMIS and ZIP file containing: original records, normalized versions from preservation and access, preservation metadata.  
+
+DIP contains normalized versions of records for access, descriptive metadata.  
+
+Admin options include the ability to quarantine transfers (can specify length of time if so), can link to Atom, DSpace, or CONTENTdm for DIPs. Failure report will identify problems. Preservation planning menu: Format information taken from format registries. Might have preferred tools to manage format rules.  
+
+Archivematica can be used to enable digital preservation of your IR.  
+
+Demonstration of transferring some sample content from Artefactual. Choose format, add name, accession number if present, etc. Actions: approve transfer (creates unique id, completes microservices, red lines indicate having to do something), create SIP, normalize, etc, etc. 
+
+#Islandora
+###Nick Ruest (York) & Kirsta Stapelfeldt (UTSC)
+
+Islandora the project, Islandora the software, Islandora the community. We're getting the condensed version of Islandora Camp content.  
+
+Islandora Foundation: 1 full-time staff member, lots of members and collaborators. Foundation holds events and are the stewards for the codebase.  
+
+The software: holds whatever content types you want, as long as you can model them. Fedora the repository, not Fedora the OS. On top is Islandora the integration layer, on top of that is Drupal.  
+
+Fedora Commons doesn't work like a hierarchy, it's more like a graph. Objects can be linked together. 
+
+Everything is an object, with datastreams that connect objects together. Drupal was different roles, which each have their set of CRUD permissions which are defined in an XML file.  
+
+Permissions can be really granular. Can hide content to select audiences but make the description available, can limit to certain groups of users, etc. Doesn't force openness.  
+
+Drupal's plug-ins are called modules, and there are thousands of these. Islandora leverages this concept to create "solution pack" modules that address different needs. For example, audio , image, warc, etc. Some solution packs:
+
+* Collections solution pack enables you to have collections, including the root collection.
+* Audio solution pack takes in an audio format, normalizes it, gives you an mp3 derivative, and allows you to play it back on your site.
+* Book for book objects, includes Tesseract for OCR
+* Image annotation
+* Compound object to relate different objects (for instance, both sides of a postcard can be separate objects that are shown together, can also use for supplementary information for theses, etc.)
+* Basic and large image solution packs (large image one includes a zoomable viewer)
+* Newspaper solution pack to organize serials, provides in-text highlighting
+* PDF
+* Video to allow streaming. Can also link out to streaming server.
+* Web ARChive solution pack to store warcs, could do a wayback machine-type thing to see previous versions of pages.
+
+Many opportunities to get involved in interest groups. Big community effort. Documentation needs work - contribute if you can. Community is quite active and there are training opportunities at Islandora Camps. First all-volunteer release was in May 2014. Committed to doing these every 6 months. Meeting minutes are all public. Lots of testers in the room. Yay testers and everyone involved in the release! IRC channel and mailing list if you have questions.  
+
+Learning from other communities: Archivematica has a file format registry. Islandora group are looking at incorporating this and working with them. Development is ongoing, lots of things coming up.  
+
+
+
+
+
+
+
