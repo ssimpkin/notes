@@ -1,5 +1,5 @@
 #Introduction
-##Nick Ruest, York  
+###Nick Ruest, York  
 
 What could we preserve? What rights do we have to the data (in the case of GIS data, maybe not). What's within scope?  
 What can our infrastructure support? (size, type) -- jpeg derivatives, tiff masters, etc. Need to budget for equipment and storage.  
@@ -22,7 +22,7 @@ Audience vote: let's look at a preservation action plan for audio content at Yor
 Parting thoughts: ethos of open source software -- release early, release often. Preservation documentation is all in github in markdown for editing and to allow contributors to submit pull requests.  
 
 #Project management for digitization programs: implementing sustainable projects
-##Jess Posgate and Loren Fantin, Our Digital World  
+###Jess Posgate and Loren Fantin, Our Digital World  
 
 Always keep your objectives and mission in mind. 4 Ws and 1 H. Need to identify the objects but also the priorities. Who's your audience? How are you going to do it?  
 
@@ -71,7 +71,7 @@ Rachel did a collection inventory and basic one-line descriptions. Prioritized g
 Open Refine produces a giant XML file for the whole collection, but Islandora wants one XML file and one image per item. XML::Twig fixes this. Batch ingested into Islandora. Now online! Yay! Important to define what success means for your project. Learning moment: emphasizing regular communication means being prepared for and flexibly adapting to changes to project scope and implementation. [Project is here!](http://uoft.me/utsc-photos)  
 
 #Linked data in digital curation
-##Jenny Jing, Queen's
+###Jenny Jing, Queen's
 
 Three layers: interface and web layer (PHP, JS, HTML, etc. Drupal or WP for publishing), system/admin layer (shell scripting, configuration, maintenance, etc. Various OSes and editing tools), and data/databases (holds content). Different technologies and skills required for each. Linked data can help users discover the content, no matter where it is.  
 
@@ -82,7 +82,7 @@ Linked data can help (1) bring traffic through Schema.org, (2) make data reusabl
 How could we use it? Apply structured data to HTML using attributes (Schema.org). In digital curation (see Linked Data for Libraries project, IRs, Digital Asset Management). 
 
 #Digital curation tools
-##Gabriela Mircea, McMaster
+###Gabriela Mircea, McMaster
 
 * Depositing and ingesting digital objects (computing and manipulating metadata, data transfer and deposit, metadata extraction, normalization and migration, web archiving)
 * Archving and preserving information packages
