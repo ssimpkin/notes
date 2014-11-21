@@ -1,5 +1,5 @@
 #Introduction
-Nick Ruest, York  
+##Nick Ruest, York  
 
 What could we preserve? What rights do we have to the data (in the case of GIS data, maybe not). What's within scope?  
 What can our infrastructure support? (size, type) -- jpeg derivatives, tiff masters, etc. Need to budget for equipment and storage.  
@@ -22,7 +22,7 @@ Audience vote: let's look at a preservation action plan for audio content at Yor
 Parting thoughts: ethos of open source software -- release early, release often. Preservation documentation is all in github in markdown for editing and to allow contributors to submit pull requests.  
 
 #Project management for digitization programs: implementing sustainable projects
-Jess Posgate and Loren Fantin, Our Digital World  
+##Jess Posgate and Loren Fantin, Our Digital World  
 
 Always keep your objectives and mission in mind. 4 Ws and 1 H. Need to identify the objects but also the priorities. Who's your audience? How are you going to do it?  
 
@@ -62,11 +62,33 @@ The user community experience - online communities can be defined many different
 Cultural heritage projects can also be crowdsourced. Want to keep "smart data" in mind (creative commons licenses, geodata). Our Digital World has a copyright FAQ and project management resources on their site.  
 
 #Digitization project management in practice
-Sara Allain, Ryerson (but talking about UTSC)  
+##Sara Allain, Ryerson (but talking about UTSC)  
 
-Project: digitize hundreds of images. Mission to facilitate digital access to select archival collections related to UTSC's 50th anniversary. June-August 2014. Had YCW funding to hire an MI/MLIS graduate student (Rachel Pisani). Had previously developed digitization standards, purchased equipment, and UTSC owned copyright. UTSC photographic services collection ~10,000 prints, negatives and slides. Loosely described and arraged by subject. Didn't do all 10,000 - selected several hundred. Also had 2 librarians and 2 work study students.  
+Project: digitize hundreds of images. Mission to facilitate digital access to select archival collections related to UTSC's 50th anniversary. June-August 2014. Had YCW funding to hire an MI/MLIS graduate student (Rachel Pisani). Had previously developed digitization standards, purchased equipment, and UTSC owned copyright. UTSC photographic services collection ~10,000 prints, negatives and slides. Loosely described and arranged by subject. Didn't do all 10,000 - selected several hundred. Also had 2 librarians and 2 work study students.  
 
 Rachel did a collection inventory and basic one-line descriptions. Prioritized good candidates for digitization on a spreadsheet. Converted spreadsheet to MODSXML using Open Refine. Work study students scanned the images following standards (600 dpi, full-colour TIFFs).  
 
-Open Refine produces a giant XML file for the whole collection, but Islandora wants one XML file and one image per item. XML::Twig fixes this. Batch ingested into Islandora. Now online! Yay! Important to define what success means for your project. Learning moment: emphasizing regular communication means being prepared for and flexibly adapting to changes to project scope and implementation. [Project is here!](http://uoft.me/utsc-photos)   
+Open Refine produces a giant XML file for the whole collection, but Islandora wants one XML file and one image per item. XML::Twig fixes this. Batch ingested into Islandora. Now online! Yay! Important to define what success means for your project. Learning moment: emphasizing regular communication means being prepared for and flexibly adapting to changes to project scope and implementation. [Project is here!](http://uoft.me/utsc-photos)  
+
+#Linked data in digital curation
+##Jenny Jing, Queen's
+
+Three layers: interface and web layer (PHP, JS, HTML, etc. Drupal or WP for publishing), system/admin layer (shell scripting, configuration, maintenance, etc. Various OSes and editing tools), and data/databases (holds content). Different technologies and skills required for each. Linked data can help users discover the content, no matter where it is.  
+
+To be considered linked data, it must be structured (choose an ontology, i.e. Schema.org), it must have a URI, and must have relationships structured as triples (subject-relationship-object). Humans are able to tell the difference between a book written by Bill Gates versus a book about Bill Gates - how can computers make this distinction? Linked data can define these relationships.  
+
+Linked data can help (1) bring traffic through Schema.org, (2) make data reusable by other web applications, (3) apply authority control as subject headings with URLS - don't have to pay vendors (4) BIBFRAME to edit records faster.  
+
+How could we use it? Apply structured data to HTML using attributes (Schema.org). In digital curation (see Linked Data for Libraries project, IRs, Digital Asset Management). 
+
+#Digital curation tools
+##Gabriela Mircea, McMaster
+
+* Depositing and ingesting digital objects (computing and manipulating metadata, data transfer and deposit, metadata extraction, normalization and migration, web archiving)
+* Archving and preserving information packages
+* Managing and administering repositories
+
+Many tools! Gabriela's presentation went through tools used for different parts of the DCC cycle, including Atom, Curator's Workbench, Fits, Xena for normalization. Refer to slides!  
+
+McMaster has created a digital curation workstation with a bunch of drives to handle various media (zip, jaz, etc.) BitCurator to extract digital materials from removable media in ways that generate metadata. BitCurator is a collection of software and utilities developped by a consortium of schools.  
 
