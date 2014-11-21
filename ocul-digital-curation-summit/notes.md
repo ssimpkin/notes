@@ -149,8 +149,22 @@ Many opportunities to get involved in interest groups. Big community effort. Doc
 
 Learning from other communities: Archivematica has a file format registry. Islandora group are looking at incorporating this and working with them. Development is ongoing, lots of things coming up.  
 
+#Omeka
+###Kelli Babcock, Leslie Barnes, Rachelann Pisani (Toronto)
 
+Wide variety of digital collections at U of T. To meet demands, identified Islandora as the platform for managing this content. One Islandora repository (Collections U of T), projects can also get their own multisites. Separate sites show only the content of those sites, for instance, content with a Fisher namespace will be displayed on Fisher site.  
 
+Allowed collections to be de-siloed, content managers as active contributors, preserving digital content, controlling access, etc.  
+
+Collection access, use and reuse was a gap that Islandora wasn't 100% filling in terms of the DCC curation lifecycle. Omeka was chosen to fill these gaps.  
+
+Omeka is an easy-to-use content management system that is more intuitive than Drupal. Plugins enable multiple functionalities like batch uploading, metadata extensions, and visualization. There's a free, hosted version at Omeka.net.  
+
+Exhibits U of T is the Omeka service hosted by ITS. FedoraConnector plugin was used to reference media files and import the metadata to Omeka. Continuing theming between Collections U of T and Exhibits U of T. End goal is a suite of services that feel like an integrated service. Goal is to cover whole data curation cycle and integrate services into a single DC portal.  
+
+Add content to collections, then pull from collections content to make exhibit. Choose from many page types to display content.  
+
+Neatline is the mapping plugin for Omeka. Can plot points on a map.  
 
 
 
